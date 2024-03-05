@@ -1,0 +1,3 @@
+When using <> (angle brackets), the compiler looks for the header file in the system's include path. This is where the standard library headers are located. For example, #include <iostream> tells the compiler to look for the header file iostream in the system's include path.
+
+When using "" (double quotes), the compiler looks for the header file in the same directory as the source file or in the directories specified by the -I flag passed to the compiler. For example, #include "myheader.h" tells the compiler to look for the header file myheader.h in the same directory as the source file or in the directories specified by the -I flag.
